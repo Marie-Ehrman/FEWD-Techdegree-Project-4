@@ -1,4 +1,6 @@
-$text-color: #777777;
+$text-color: #777;
+$button-text-color: #fff;
+$image-border: #ccc;
 $accent: #58E1C1;
 
 $default: #51DDFC;
@@ -7,14 +9,24 @@ $error: #E4757A;
 $warning: #FD7856;
 $info: #927BC1;
 
+// //Grid colors
+// $grid-colors: (
+//     'full': #80E8D1,
+//     'half': #4DA2BB ,
+//     'third': #7EE6FD,
+//     'quarter': #DEB2EE ,
+//     'fifth': #88D9A0,
+//     'seventh': #EC9FA3 ,
+//     'eighth': #FD9F85 
+// );
+
 $full: #80E8D1;
 $half: #4DA2BB ;
 $third: #7EE6FD;
 $quarter: #DEB2EE ;
-$five: #88D9A0;
-$seven: #EC9FA3 ;
-$eight: #FD9F85 ;
+$fifth: #88D9A0;
+$seventh: #EC9FA3 ;
+$eighth: #FD9F85 ;
 
-
-
+$breakpoint-lg: 768px;
 
