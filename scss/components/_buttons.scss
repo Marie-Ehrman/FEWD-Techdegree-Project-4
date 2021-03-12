@@ -12,24 +12,5 @@
     text-transform: uppercase;
     border-radius: 5px;
   }
-  
-  //map these???
-  .default {
-    background-color: $default;
-  }
-  
-  .error {
-    background-color: $error;
-  }
-  
-  .info {
-    background-color: $info;
-  }
-  
-  .success {
-    background-color: $success;
-  }
-  
-  .warning {
-    background-color: $warning;
-  }
+
+  @include button-hover($button-colors);

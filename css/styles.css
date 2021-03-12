@@ -397,22 +397,42 @@ a {
 
 .default {
   background-color: #51DDFC;
+  transition: background-color 0.5s ease-in-out;
 }
-
-.error {
-  background-color: #E4757A;
-}
-
-.info {
-  background-color: #927BC1;
+.default:hover {
+  background-color: #9cecfd;
 }
 
 .success {
   background-color: #63CC82;
+  transition: background-color 0.5s ease-in-out;
+}
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+.error {
+  background-color: #E4757A;
+  transition: background-color 0.5s ease-in-out;
+}
+.error:hover {
+  background-color: #f1b5b8;
 }
 
 .warning {
   background-color: #FD7856;
+  transition: background-color 0.5s ease-in-out;
+}
+.warning:hover {
+  background-color: #feb4a2;
+}
+
+.info {
+  background-color: #927BC1;
+  transition: background-color 0.5s ease-in-out;
+}
+.info:hover {
+  background-color: #bdafd9;
 }
 
 /* ============================================= */
@@ -475,7 +495,6 @@ a {
   max-width: 100%;
   max-height: 100%;
 }
-
 .img-frame {
   display: block;
   margin-left: auto;
@@ -485,7 +504,6 @@ a {
   padding: 13px;
   border: 1px solid #ccc;
 }
-
 .img-logo {
   display: block;
   margin-left: auto;
@@ -516,47 +534,36 @@ a {
 .theme.col-1 {
   background-color: #927BC1;
 }
-
 .theme.col-2 {
   background-color: #FD7856;
 }
-
 .theme.col-3 {
   background-color: #DEB2EE;
 }
-
 .theme.col-4 {
   background-color: #7EE6FD;
 }
-
 .theme.col-5 {
   background-color: #88D9A0;
 }
-
 .theme.col-6 {
   background-color: #4DA2BB;
 }
-
 .theme.col-7 {
   background-color: #EC9FA3;
 }
-
 .theme.col-8 {
   background-color: #FD9F85;
 }
-
 .theme.col-9 {
   background-color: #E4757A;
 }
-
 .theme.col-10 {
   background-color: #63CC82;
 }
-
 .theme.col-11 {
   background-color: #51DDFC;
 }
-
 .theme.col-12 {
   background-color: #80E8D1;
 }
@@ -598,11 +605,11 @@ a {
   }
 
   .col-1 {
-    flex-basis: 8.33%;
+    flex-basis: 8.3333333333%;
   }
 
   .col-2 {
-    flex-basis: 16.67%;
+    flex-basis: 16.6666666667%;
   }
 
   .col-3 {
@@ -610,11 +617,11 @@ a {
   }
 
   .col-4 {
-    flex-basis: 33.33%;
+    flex-basis: 33.3333333333%;
   }
 
   .col-5 {
-    flex-basis: 41.67%;
+    flex-basis: 41.6666666667%;
   }
 
   .col-6 {
@@ -622,11 +629,11 @@ a {
   }
 
   .col-7 {
-    flex-basis: 58.33%;
+    flex-basis: 58.3333333333%;
   }
 
   .col-8 {
-    flex-basis: 66.67%;
+    flex-basis: 66.6666666667%;
   }
 
   .col-9 {
@@ -634,11 +641,11 @@ a {
   }
 
   .col-10 {
-    flex-basis: 83.33%;
+    flex-basis: 83.3333333333%;
   }
 
   .col-11 {
-    flex-basis: 91.67%;
+    flex-basis: 91.6666666667%;
   }
 
   .col-12 {

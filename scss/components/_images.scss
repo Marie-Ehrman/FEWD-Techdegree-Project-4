@@ -2,21 +2,21 @@
 /*              Images                           */
 /* ============================================= */
 
-.img-avatar {
-    @include image-display;
+.img {
+  &-avatar {
+    @include display-center;
     margin-top: 10px;
     max-width: 100%; 
     max-height: 100%;
   }
-  
-  .img-frame {
-    @include image-display;
+  &-frame {
+    @include display-center;
     margin-top: 10px;
     max-width: 100%;
     padding: 13px;
     border: 1px solid $image-border;
   }
-  
-  .img-logo {
-    @include image-display;
+  &-logo {
+    @include display-center;
   }
+}

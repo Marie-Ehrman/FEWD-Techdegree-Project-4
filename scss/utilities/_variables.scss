@@ -1,32 +1,38 @@
 $text-color: #777;
-$button-text-color: #fff;
-$image-border: #ccc;
+$breakpoint-lg: 768px;
 $accent: #58E1C1;
 
-$default: #51DDFC;
-$success: #63CC82;
-$error: #E4757A;
-$warning: #FD7856;
-$info: #927BC1;
 
-// //Grid colors
-// $grid-colors: (
-//     'full': #80E8D1,
-//     'half': #4DA2BB ,
-//     'third': #7EE6FD,
-//     'quarter': #DEB2EE ,
-//     'fifth': #88D9A0,
-//     'seventh': #EC9FA3 ,
-//     'eighth': #FD9F85 
-// );
+//***** IMAGE *****
+$image-border: #ccc;
 
-$full: #80E8D1;
-$half: #4DA2BB ;
-$third: #7EE6FD;
-$quarter: #DEB2EE ;
-$fifth: #88D9A0;
-$seventh: #EC9FA3 ;
-$eighth: #FD9F85 ;
 
-$breakpoint-lg: 768px;
+//***** BUTTONS *****
+$button-colors: (
+    'default': #51DDFC,
+    'success': #63CC82,
+    'error': #E4757A,
+    'warning': #FD7856,
+    'info': #927BC1
+);
 
+$button-text-color: #fff;
+
+
+//******* GRID *******
+$colors: (
+    '1': #927BC1,
+    '2': #FD7856,
+    '3': #DEB2EE,
+    '4': #7EE6FD,
+    '5': #88D9A0,
+    '6': #4DA2BB ,
+    '7': #EC9FA3,
+    '8': #FD9F85,
+    '9': #E4757A,
+    '10': #63CC82,
+    '11': #51DDFC,
+    '12': #80E8D1,
+);
+
+$grid-col-count: 12;

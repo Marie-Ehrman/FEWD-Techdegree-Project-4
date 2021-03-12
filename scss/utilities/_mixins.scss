@@ -1,16 +1,28 @@
-@mixin gridy() {
-    
-}
 
-@mixin image-display {
+    
+@mixin display-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-    
-@mixin center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+@mixin themes ($map) {
+    @each $key, $color in $map {
+        &.col-#{$key} {
+            background-color: $color;
+        }
+    }
+}
+
+@mixin button-hover($map) {
+    @each $key, $color in $map {
+        .#{$key} {
+            background-color: $color;
+            transition: background-color .5s ease-in-out;
+
+            &:hover {
+                background-color: lighten($color, 15%);
+              }
+        }
+    }
 }
