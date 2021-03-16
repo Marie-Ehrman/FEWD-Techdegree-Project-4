@@ -35,7 +35,7 @@
   }
   
   .link {
-    color: $default;
+    color: map-get($button-colors, 'default');
     font-weight: 700;
   }
   
